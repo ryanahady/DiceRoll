@@ -1,0 +1,86 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  margin-top: 0;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+.refreshBtnDiv{
+  margin-top: 2%;
+}
+
+footer {
+  margin-top: 3%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.buttonRefresh {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #04ecc9), color-stop(1, #07d4b5) );
+	background:-moz-linear-gradient( center top, #04ecc9 5%, #07d4b5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#04ecc9', endColorstr='#07d4b5');
+	background-color:#04ecc9;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+text-indent:0;
+	border:1px solid #34c742;
+	display:inline-block;
+	color:#393E46;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-weight:normal;
+	font-style:normal;
+height:40px;
+	line-height:40px;
+width:109px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #5da187;
+}.buttonRefresh:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #07d4b5), color-stop(1, #04ecc9) );
+	background:-moz-linear-gradient( center top, #07d4b5 5%, #04ecc9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#07d4b5', endColorstr='#04ecc9');
+	background-color:#07d4b5;
+}.buttonRefresh:active {
+	position:relative;
+	top:1px;
+}
